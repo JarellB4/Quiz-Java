@@ -5,41 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz app</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+   <h1 id="time"></h1> 
     <div class="container">
-        <div id="question">question</div>
-        <div id="answer-button">
-            <button class="btn">Answer 1 </button>
-            <button class="btn">Answer 2 </button>
-            <button class="btn">Answer 3 </button>
-            <button class="btn">Answer 4 </button>
-            
-    <div class="question-container">
-      <div class="controls">
-          <button id="start-btn" class="start-btn btn"> Submit</button>
-          <button id="next-btn" class="next-btn btn"> Next</button>
+        <div class="question-container" class="hide">
+
+            <div id="question">Question</div>
+
+            <div id="answer-button" class="btn-grid">
 
 
-</div>
+                <button type="button" class="btn">Answer 1 </button>
+                <button type="button" class="btn">Answer 2 </button>
+                <button type="button" class="btn">Answer 3 </button>
+                <button type="button" class="btn">Answer 4 </button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn"> Submit</button>
+            <button id="next-btn" class="next-btn hide"> Next</button>
 
 
-
-
-
-
-    
-
+        </div>
 
 
 
 
-    </Script>
 
+
+
+
+
+
+
+    </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
+
 
 </html>
